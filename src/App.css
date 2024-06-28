@@ -1,38 +1,111 @@
+body {
+  background: url(food.jpg);
+}
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button-add {
+  font-family: "Montserrat", sans-serif;
+  background-color: #36BA98;
+  padding: 20px;
+  border: none;
+  font-size: 15px;
+  border-radius: 20px;
+  color: #dcedf7;
+  font-weight: bold;
+  margin: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button-delete {
+  font-family: "Montserrat", sans-serif;
+  border: 0;
+  background: none;
+  color: #E90074;
+  font-weight: bold;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 10px;
+}
+.head-title {
+  font-family: "Roboto", sans-serif;
+  margin-left: 80px;
+  color: brown;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-top: -10px;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: brown;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: -85px;
+  font-size: 100px;
+}
+h3 {
   color: white;
+  margin-top: -85px;
+  font-size: 50px;
+  text-transform: uppercase;
+  background-color: #918239;
+  padding: 15px;
+  border-radius: 20px;
+
+}
+.whole-plan {
+  width: 70%;
+  height: 100vh;
+}
+.myInput {
+  width: 100%;
+  height: 20px;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 20px;
+  display: block;
+  background-color: aliceblue;
+}
+textarea {
+  display: block;
+  border: 1px solid #ddd;
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+}
+.selected {
+  background-color: #E6B9A6;
+  border-radius: 20px;
+  padding: 1px;
+  
+}
+.default {
+  background-color: #edf8fe;
+  border-radius: 20px;
+  padding: 1px;
+  margin: 10px;
+}
+.plan {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: brown;
+}
+p {
+  color: rgb(35, 171, 171);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+.title{
+  color: black;
+  font-size: 15px;
+  
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
